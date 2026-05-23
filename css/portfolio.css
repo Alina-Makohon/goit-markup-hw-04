@@ -1,0 +1,36 @@
+.product-list {
+  background-color: #ffffff;
+  flex-basis: calc((100% - 48px) / 3);
+}
+.product-type {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.portfolio-title {
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  max-width: 1128px;
+}
+.product-name {
+  margin-bottom: 8px;
+}
+.product-info {
+  padding-bottom: 32px;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+.product-photo {
+  display: block;
+}

@@ -1,0 +1,22 @@
+.categories p {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.categories {
+  display: flex;
+  max-width: 1158px;
+  gap: 24px;
+}
+.categories-list {
+  flex-basis: calc((100% - 24px * 3) / 4);
+}
+.categories-name {
+  margin-bottom: 8px;
+}
+.features-container {
+  padding-bottom: 0;
+  padding-top: 0;
+}
