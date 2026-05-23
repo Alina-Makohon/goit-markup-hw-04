@@ -23,6 +23,7 @@
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-content {
   display: flex;
@@ -38,4 +39,22 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+}
+.team-social-list {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  margin-top: 0;
+}
+.team-social-link {
+}
+.team-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: #ffffff;
 }
