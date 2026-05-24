@@ -32,6 +32,7 @@
   color: #fff;
   margin-bottom: 16px;
   font-size: 16px;
+  line-height: 1.5;
 }
 .fototer-social-list {
   display: flex;
@@ -45,7 +46,7 @@
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  fill: #ffffff;
+  fill: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover,
